@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b43dbc14-1471-4a3c-a1ad-adeb40d31dfa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/antlr_2_7_71.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projeto_Vendas_JPA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/anotacao/ColunaTabela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/anotacao/Tabela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/anotacao/TipoChave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/ClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/IClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/IProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/IVendaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/Persistente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/ProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/VendaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/factory/ClienteFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/factory/ProdutoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/factory/ProdutoQuantidadeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/factory/VendaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/generic/GenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/generic/IGenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/generic/SingletonMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/generic/jdbc/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/generic/jpa/GenericJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/generic/jpa/IGenericJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/jpa/ClienteJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/jpa/IClienteJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/jpa/IProdutoJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/jpa/IVendaJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/jpa/ProdutoJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/jpa/VendaExclusaoJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/jpa/VendaJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/ProdutoQuantidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Venda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/jpa/ClienteJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/jpa/ProdutoJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/jpa/ProdutoQuantidadeJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/jpa/VendaJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/DAOException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/MaisDeUmRegistroException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/TableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/TipoChaveNaoEncontradaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/TipoElementoNaoConhecidoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/IClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/IProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/generic/GenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/generic/IGenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/generic/jpa/GenericJpaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/generic/jpa/IGenericJpaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/jpa/ClienteJpaDAOTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/jpa/ProdutoJpaDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/jpa/VendaJpaDAOTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2b8b9IrTOglikIBpd4oIjxz6qaw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/guilh/Projetos ebac/txw2-2.3.1.jar",
+    "onboarding.tips.debug.path": "C:/Users/guilh/Projetos ebac/Módulo 34/Projeto_Vendas_JPA/Projeto_Vendas_JPA/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dao.jpa" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\guilh\Projetos ebac\Módulo 34\Projeto_Vendas_JPA\Projeto_Vendas_JPA\src\resources\sdada" />
+      <recent name="C:\Users\guilh\Projetos ebac\Módulo 34\Projeto_Vendas_JPA\Projeto_Vendas_JPA\src\resources\META-INF\META-INF" />
+      <recent name="C:\Users\guilh\Projetos ebac\Módulo 34\Projeto_Vendas_JPA\Projeto_Vendas_JPA\src\resources\META-INF" />
+      <recent name="C:\Users\guilh\Projetos ebac\Módulo 34\Projeto_Vendas_JPA\Projeto_Vendas_JPA\src\resources\META-INF\teste" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ClienteJpaDAOTeste">
+    <configuration name="ClienteJpaDAOTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto_Vendas_JPA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpa" />
+      <option name="MAIN_CLASS_NAME" value="jpa.ClienteJpaDAOTeste" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteJpaDAOTeste.pesquisarCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto_Vendas_JPA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpa" />
+      <option name="MAIN_CLASS_NAME" value="jpa.ClienteJpaDAOTeste" />
+      <option name="METHOD_NAME" value="pesquisarCliente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoJpaDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto_Vendas_JPA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpa" />
+      <option name="MAIN_CLASS_NAME" value="jpa.ProdutoJpaDAOTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendaJpaDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto_Vendas_JPA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpa" />
+      <option name="MAIN_CLASS_NAME" value="jpa.VendaJpaDAOTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ClienteJpaDAOTeste" />
+        <item itemvalue="JUnit.VendaJpaDAOTest" />
+        <item itemvalue="JUnit.ProdutoJpaDAOTest" />
+        <item itemvalue="JUnit.ClienteJpaDAOTeste.pesquisarCliente" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b43dbc14-1471-4a3c-a1ad-adeb40d31dfa" name="Changes" comment="" />
+      <created>1705599502071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705599502071</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
