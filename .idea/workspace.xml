@@ -4,70 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b43dbc14-1471-4a3c-a1ad-adeb40d31dfa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/antlr_2_7_71.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projeto_Vendas_JPA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/anotacao/ColunaTabela.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/anotacao/Tabela.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/anotacao/TipoChave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/ClienteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/IClienteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/IProdutoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/IVendaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/Persistente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/ProdutoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/VendaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/factory/ClienteFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/factory/ProdutoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/factory/ProdutoQuantidadeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/factory/VendaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/generic/GenericDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/generic/IGenericDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/generic/SingletonMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/generic/jdbc/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/generic/jpa/GenericJpaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/generic/jpa/IGenericJpaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/jpa/ClienteJpaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/jpa/IClienteJpaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/jpa/IProdutoJpaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/jpa/IVendaJpaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/jpa/ProdutoJpaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/jpa/VendaExclusaoJpaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/jpa/VendaJpaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/ProdutoQuantidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Venda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/jpa/ClienteJpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/jpa/ProdutoJpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/jpa/ProdutoQuantidadeJpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/jpa/VendaJpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/DAOException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/MaisDeUmRegistroException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/TableException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/TipoChaveNaoEncontradaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/TipoElementoNaoConhecidoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/ClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/IClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/IProdutoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/ProdutoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/generic/GenericService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/generic/IGenericService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/generic/jpa/GenericJpaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/generic/jpa/IGenericJpaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/jpa/ClienteJpaDAOTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/jpa/ProdutoJpaDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/jpa/VendaJpaDAOTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="b43dbc14-1471-4a3c-a1ad-adeb40d31dfa" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +135,30 @@
       <option name="presentableId" value="Default" />
       <updated>1705599502071</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1705689621730</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705689621730</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
