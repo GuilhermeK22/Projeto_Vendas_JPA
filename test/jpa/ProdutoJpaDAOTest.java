@@ -1,12 +1,12 @@
 package jpa;
 
-import dao.jpa.IProdutoJpaDAO;
-import dao.jpa.ProdutoJpaDAO;
-import domain.jpa.ProdutoJpa;
-import exceptions.DAOException;
-import exceptions.MaisDeUmRegistroException;
-import exceptions.TableException;
-import exceptions.TipoChaveNaoEncontradaException;
+import main.br.com.guikapp.dao.jpa.IProdutoJpaDAO;
+import main.br.com.guikapp.dao.jpa.ProdutoJpaDAO;
+import main.br.com.guikapp.domain.jpa.ProdutoJpa;
+import main.br.com.guikapp.exceptions.DAOException;
+import main.br.com.guikapp.exceptions.MaisDeUmRegistroException;
+import main.br.com.guikapp.exceptions.TableException;
+import main.br.com.guikapp.exceptions.TipoChaveNaoEncontradaException;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;

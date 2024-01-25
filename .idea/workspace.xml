@@ -4,7 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b43dbc14-1471-4a3c-a1ad-adeb40d31dfa" name="Changes" comment="Initial commit" />
+    <list default="true" id="b43dbc14-1471-4a3c-a1ad-adeb40d31dfa" name="Changes" comment="Initial commit v1">
+      <change afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/ClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/ClienteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/IClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/IClienteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/IProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/IProdutoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/IVendaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/IVendaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/Persistente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/Persistente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/ProdutoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/VendaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/VendaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/factory/ClienteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/factory/ClienteFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/factory/ProdutoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/factory/ProdutoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/factory/ProdutoQuantidadeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/factory/ProdutoQuantidadeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/factory/VendaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/factory/VendaFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/generic/GenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/generic/GenericDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/generic/IGenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/generic/IGenericDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/generic/SingletonMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/generic/SingletonMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/generic/jdbc/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/generic/jdbc/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/generic/jpa/GenericJpaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/generic/jpa/GenericJpaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/generic/jpa/IGenericJpaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/generic/jpa/IGenericJpaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/jpa/ClienteJpaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/jpa/ClienteJpaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/jpa/IClienteJpaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/jpa/IClienteJpaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/jpa/IProdutoJpaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/jpa/IProdutoJpaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/jpa/IVendaJpaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/jpa/IVendaJpaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/jpa/ProdutoJpaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/jpa/ProdutoJpaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/jpa/VendaExclusaoJpaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/jpa/VendaExclusaoJpaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/jpa/VendaJpaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/dao/jpa/VendaJpaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/domain/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/domain/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/ProdutoQuantidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/domain/ProdutoQuantidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/domain/Venda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/jpa/ClienteJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/domain/jpa/ClienteJpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/jpa/ProdutoJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/domain/jpa/ProdutoJpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/jpa/ProdutoQuantidadeJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/domain/jpa/ProdutoQuantidadeJpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/jpa/VendaJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/domain/jpa/VendaJpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/DAOException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/exceptions/DAOException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/MaisDeUmRegistroException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/exceptions/MaisDeUmRegistroException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/TableException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/exceptions/TableException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/TipoChaveNaoEncontradaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/exceptions/TipoChaveNaoEncontradaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/TipoElementoNaoConhecidoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/exceptions/TipoElementoNaoConhecidoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/services/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/IClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/services/IClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/IProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/services/IProdutoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/services/ProdutoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/generic/GenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/services/generic/GenericService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/generic/IGenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/services/generic/IGenericService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/generic/jpa/GenericJpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/services/generic/jpa/GenericJpaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/generic/jpa/IGenericJpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/br/com/guikapp/services/generic/jpa/IGenericJpaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/jpa/ClienteJpaDAOTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/jpa/ClienteJpaDAOTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/jpa/ProdutoJpaDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/jpa/ProdutoJpaDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/jpa/VendaJpaDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/jpa/VendaJpaDAOTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +89,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/guilh/Projetos ebac/txw2-2.3.1.jar",
+    "last_opened_file_path": "C:/Users/guilh/Projetos ebac/Módulo 34/Projeto_Vendas_JPA/Projeto_Vendas_JPA",
     "onboarding.tips.debug.path": "C:/Users/guilh/Projetos ebac/Módulo 34/Projeto_Vendas_JPA/Projeto_Vendas_JPA/src/Main.java",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
@@ -55,7 +107,7 @@
       <recent name="C:\Users\guilh\Projetos ebac\Módulo 34\Projeto_Vendas_JPA\Projeto_Vendas_JPA\src\resources\META-INF\teste" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClienteJpaDAOTeste">
+  <component name="RunManager" selected="JUnit.VendaJpaDAOTest">
     <configuration name="ClienteJpaDAOTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Projeto_Vendas_JPA" />
       <extension name="coverage">
@@ -119,9 +171,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ClienteJpaDAOTeste" />
         <item itemvalue="JUnit.VendaJpaDAOTest" />
         <item itemvalue="JUnit.ProdutoJpaDAOTest" />
+        <item itemvalue="JUnit.ClienteJpaDAOTeste" />
         <item itemvalue="JUnit.ClienteJpaDAOTeste.pesquisarCliente" />
       </list>
     </recent_temporary>
@@ -142,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705689621730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit v1">
+      <created>1705689970242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705689970242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,7 +217,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Initial commit v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit v1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
